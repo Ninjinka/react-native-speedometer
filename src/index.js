@@ -57,6 +57,7 @@ class Speedometer extends Component {
         toValue: limitValue(value, minValue, maxValue, allowedDecimals),
         duration: easeDuration,
         easing: Easing.linear,
+        useNativeDriver : true,
       },
     ).start();
 
